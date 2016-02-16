@@ -1,0 +1,41 @@
+ion-side-menus {
+	ion-side-menu {
+		ion-header-bar {
+			&.lg-header {
+				height: 88px;
+
+				figure {
+					display: block;
+					height: 77px;
+					padding: 5px;
+					.avatar {
+						background: white;
+						border: 0;
+						border-radius: 50%;
+						float: left;
+						height: 67px;
+						width: 67px;
+					}
+					.user {
+						float: left;
+						padding: 10px 0 10px 10px;
+						.username {
+							float: left;
+							margin-bottom: 5px;
+						}
+						.favor {
+							float: left;
+							clear: left;
+						}
+					}
+				}
+			}
+		}
+
+		ion-content {
+			&.lg-header {
+				top: 88px;
+			}
+		}
+	}
+}
